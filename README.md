@@ -12,10 +12,10 @@
 	* rank  - rank of entry within each location (as specified by order) 
 	* rel_rank - rank of each entry with each location normalized to be in [0,1] interval
 	* loc_count - number of entries for each location
-        * dummy features for event, resource and severity types 
+	* dummy features for event, resource and severity types 
 	* log feature volume - volume features for log features
 	* max, min, median and count of log feature number and volume
-        * lag features for all features (except for log volume features) for two periods before and after fault severity
+	* lag features for all features (except for log volume features) for two periods before and after fault severity
 	* lag features for fault severity for two periods before and after fault severity 
 * _estimation.py - estimates Random Forest, Gradient Boosting, XGBoost classifiers and saves the predictions for each model in “output” folder; saves the predictions for a final model in “output” folder; and plots the performance of Random Forest and Gradient Boosting as a function of number of trees.    
 

@@ -7,7 +7,7 @@
 ##The final model is an ensemble of XGBClassifier (with weight 0.5), Random Forest (0.25) and GradientBoosting (0.25).
 
 ##Scripts description
-	* _preprocessing.py - preprocess the data by extracting features and creating new features such as: 
+* _preprocessing.py - preprocess the data by extracting features and creating new features such as: 
 		 **order - order of each entry in severity file 
          	**rank  - rank of entry within each location (as specified by order) 
          	**rel_rank - rank of each entry with each location normalized to be in [0,1] interval
